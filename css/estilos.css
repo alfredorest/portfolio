@@ -1,0 +1,118 @@
+body{
+    font-family: 'Montserrat' , sans-serif;
+}
+h1{
+    color: #e20000;
+    font-size: 36px;
+}
+p{
+    color: #6a6a6a;
+    font-size: 16px;
+}
+input, textarea{
+    border-radius: 15px !important;
+}
+nav .nav-link{
+    color: #282828;
+}
+nav .active{
+    border: #e20000 solid 1px;
+    border-radius: 20px;
+}
+.btn{
+    background-color: white;
+    color: #370a6d;
+    border-radius: 15px;
+}
+.btn:hover{
+    background-color: #370a6d;
+    color: white;
+}
+#contacto{
+    background-image: url("../images/fondo-contacto.png");
+    background-size: 100%;
+}
+footer, footer a{
+    color: white;
+    font-weight: 100;
+}
+footer .fa-github {
+    font-size: 30px;
+    color: white;
+}
+footer .fa-linkedin-in {
+    color: #ff4a49;
+    background-color: white;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+.fa-whatsapp{
+    position: fixed;
+    bottom: 0px;
+    right: 80px;
+    color: white;
+    background-color: #370a6d;
+    padding: 20px;
+    font-size: 30px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+@media(max-width: 750px) {
+    #contacto{
+        background-image: url("../images/fondo-proyectos.png");
+    }
+    footer, footer a{
+        color: #ff4a49;
+    }
+    footer, .fa-github{
+        color: #ff4a49;
+    }
+}
+.fa-bars{
+    padding: 10px;
+    border-radius: 5px;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+    background-color: #370a6d;
+    color: white;
+    border: 1px solid white
+}
+.navbar-toggler {
+    color: #ff4a49;
+    border: 1px solid #ff4a49
+}
+#proyectos{
+    background-image: url("../images/fondo-proyectos.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#proyectos h2{
+    color: white;
+    font-size: 16px;
+}
+.gradiente{
+    background: rgba(184,37,20,1);
+    background: -moz-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(184,37,20,1)), color-stop(47%, rgba(214,52,30,1)), color-stop(70%, rgba(240,47,23,1)), color-stop(100%, rgba(240,47,23,1)));
+    background: -webkit-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: -o-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: -ms-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: linear-gradient(to right, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b82514', endColorstr='#f02f17', GradientType=1 );
+}
+#proyectos img{
+    height: 210px;
+    background-color: white;
+    padding: 0px;
+}
+.bloques p{
+    height: 90px;
+    padding: 0px;
+}
